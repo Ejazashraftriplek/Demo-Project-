@@ -1,0 +1,15 @@
+<table class="table table-hover">
+    <thead>
+      <tr >
+        <th *ngFor="let item of tableHeader" scope="col">{{item}}</th>
+        <!-- <th scope="col">First</th>
+        <th scope="col">Last</th>
+        <th scope="col">Handle</th> -->
+      </tr>
+    </thead>
+    <tbody>
+      <tr>        
+        <td *ngFor="let item of tableRows">{{item}}</td>   
+      </tr> 
+    </tbody>
+  </table>
