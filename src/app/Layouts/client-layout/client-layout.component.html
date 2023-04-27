@@ -1,8 +1,15 @@
 <div class="wrapper">
-    <div class="sidebar"><app-sidebar></app-sidebar></div>
-    <div class="main-panel  ml-5 bg-light mx-5 my-5 border rounded">
-        <ng-container class="container  ">            
-            <router-outlet></router-outlet>
-        </ng-container>        
+    <div class="row">
+        <div class="col-3">
+            <div class="sidebar"><app-sidebar></app-sidebar></div>
+        </div>
+        <div class="col-md-8">
+            <div class="main-panel  bg-light  my-5 pr-5 border rounded">
+                <ng-container class="container  ">            
+                    <router-outlet></router-outlet>
+                </ng-container>        
+            </div>
+
+        </div>
     </div>
   </div>

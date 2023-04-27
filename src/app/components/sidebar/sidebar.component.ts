@@ -16,6 +16,11 @@ export class SidebarComponent implements OnInit {
   menuItems: any[] = [
     { path: 'profile', title: 'Client Profile', class: 'list-group-item list-group-item-action py-2 ripple ', icon: '' },
     { path: 'document', title: 'Client Documents', class: 'list-group-item list-group-item-action py-2 ripple', icon: '' },
+    { path: 'document', title: 'Training ', class: 'list-group-item list-group-item-action py-2 ripple', icon: '' },
+    { path: 'document', title: 'Jobs', class: 'list-group-item list-group-item-action py-2 ripple', icon: '' },
+    { path: 'document', title: 'History', class: 'list-group-item list-group-item-action py-2 ripple', icon: '' },
+    { path: 'document', title: 'Setting', class: 'list-group-item list-group-item-action py-2 ripple', icon: '' },
+
   ];
   ngOnInit(): void {
   }
